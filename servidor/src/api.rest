@@ -1,0 +1,34 @@
+###
+GET http://localhost:3000/libros
+
+###
+post http://localhost:3000/libros
+Content-Type: application/json
+
+{
+    "titulo":"El señor de los anillos11",
+    "autor":"JR Tolkien",
+    "editorial":"Eperanza",
+    "edicion":21,
+    "clasificacion":"Fantasia",
+    "estatus":"Prestado"
+}
+
+###
+GET http://localhost:3000/lbros/
+
+###
+DELETE http://localhost:3000/libros/
+
+###
+PUT http://localhost:3000/libros/
+Content-Type: application/json
+
+{
+    "titulo":"El señor de los anillos33",
+    "autor":"Sam Thompson",
+    "editorial":"Eperanza",
+    "edicion":21,
+    "clasificacion":"Fantasia",
+    "estatus":"Prestado"
+}
